@@ -1,0 +1,164 @@
+{
+  "intents": [
+    {
+      "tag": "main menu",
+      "patterns": [ "give me the menu", "show me the main menu", "where is the main menu", "display main menu" ],
+      "responses": [ "Please select one of the below options or ask your own question " ],
+      "action": "",
+      "resources": "",
+      "nextpattern": "",
+      "buttons": [ "About Thorsignia","Services","Portfolio", "Location" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "greetings t1",
+      "patterns": [ "Good morning" ],
+      "responses": [ "Good Morning <br> Welcome to Thorsignia help desk <br> Thorsignia is a leading IT and Multimedia company that provides an integrated range of services. We render finest quality outputs to our clients through our domain expertise" ],
+      "action": "gif",
+      "resources": "gif link",
+      "nextpattern": "",
+      "buttons": [ "About Thorsignia","Services","Portfolio", "Location" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "greetings t2",
+      "patterns": [ "Good Afternoon" ],
+      "responses": [ "Good Afternoon <br> Welcome to Thorsignia help desk <br> Thorsignia is a leading IT and Multimedia company that provides an integrated range of services. We render finest quality outputs to our clients through our domain expertise" ],
+      "action": "gif",
+      "resources": "gif link",
+      "nextpattern": "",
+      "buttons": [ "About Thorsignia","Services","Portfolio", "Location" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "greetings t3",
+      "patterns": [ "Good Evening" ],
+      "responses": [ "Good Evening <br> Welcome to Thorsignia help desk <br> Thorsignia is a leading IT and Multimedia company that provides an integrated range of services. We render finest quality outputs to our clients through our domain expertise" ],
+      "action": "gif",
+      "resources": "gif link",
+      "nextpattern": "",
+      "buttons": [ "About Thorsignia","Services","Portfolio", "Location" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "greetings t4",
+      "patterns": [ "Good Night" ],
+      "responses": [ "Good Night <br> Welcome to Thorsignia help desk <br> Thorsignia is a leading IT and Multimedia company that provides an integrated range of services. We render finest quality outputs to our clients through our domain expertise" ],
+      "action": "gif",
+      "resources": "gif link",
+      "nextpattern": "",
+      "buttons": [ "About Thorsignia","Services","Portfolio", "Location" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "greetings t5",
+      "patterns": [ "Hi there", "Is anyone there?", "hello there" ],
+      "responses": [ "Hello <br>Welcome to Thorsignia help desk <br> Thorsignia is a leading IT and Multimedia company that provides an integrated range of services. We render finest quality outputs to our clients through our domain expertise" ],
+      "action": "emoji",
+      "resources": "waveing hand emoji",
+      "nextpattern": "",
+      "buttons": [ "About Thorsignia","Services","Portfolio", "Location" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "greetings t6",
+      "patterns": [ "How are you", "Hows your day going", "hows life" ],
+      "responses": [ "I am fine thanks for asking <br> Welcome to Thorsignia help desk <br> Thorsignia is a leading IT and Multimedia company that provides an integrated range of services. We render finest quality outputs to our clients through our domain expertise" ],
+      "action": "image",
+      "resources": "image link",
+      "nextpattern": "",
+      "buttons": [ "About Thorsignia","Services","Portfolio", "Location" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "Good Bye",
+      "patterns": [ "Good Bye" ],
+      "responses": [ "Good bye , Have a Good day" ],
+      "action": "gif",
+      "resources": "gif link",
+      "nextpattern": "",
+      "buttons": [],
+      "context": [ "" ]
+    },
+    {
+      "tag": "noanswer",
+      "patterns": [],
+      "responses": [ "Sorry, can't understand you <br>For further details, please email us at info@thorsignia.in or call at +91-9008097780. <br>We would be glad to assist you." ],
+      "action": "link",
+      "resources": "website link",
+      "nextpattern": "",
+      "buttons": [ "About Thorsignia","Services","Portfolio", "Location" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "about thorsignia",
+      "patterns": ["about", "tell me more", "i would like to hear more","info on Thorsignia","more about thorsignia", "Whats thorsignia"],
+      "responses": [ "Thorsignia is a leading IT and Multimedia company that provides an integrated range of services. We render optimum quality outputs to our clients through our expertise. We offer extensive media, web and software based solutions, thereby catering best to our clients requirements. Our unparalleled experience in these firms to the path of success <br> Innovatively managing technical issues in your business process has fetched us the tag of world class service provider. We provide our clients with feasible cost them run more efficiently. Through our operational efficiency, we work towards handling complexities which in turn upgrades enterprise value. We offer a plethora which has consistently reinforced the goodwill of our company" ],
+      "action": "image",
+      "resources": "image link",
+      "nextpattern": ":::---",
+      "buttons":[ "About Thorsignia","Services","Portfolio", "Location" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "location",
+      "patterns": [ "location", "where is it located", "it's location" ],
+      "responses":["No. 80, Ahad PInnacle, 2nd Floor, 5th Main 2nd Cross Road Koramangala Industrial Layout, 5th Block, Bengaluru, Karnataka 560095"],
+      "action": "map",
+      "resources": "map link",
+      "nextpattern": "--||--",
+      "buttons": [ "About Thorsignia", "Nearby Hospitals", "Nearby Landmarks", "Nearby Eateries", "Nearby Malls", "Nearby Gaming-zones" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "hospitals",
+      "patterns": [ "--||-- hospitals", "--||-- nearby hospitals", "--||-- medical facility" ],
+      "responses": [ "Unit of Hope Building, St Jhons's Medical college Hospital: 1.1KM <br> Acura Speciality Hospital: 1.2KM <br> Saraswathi health clinic: 1.2KM <br> Sri Venkateshwara Hospital: 2.1 KM <br> Varalakshmi Hospitals: 2KM <br> Sporthy Hospital: 2.2KM <br> Kamakshi Hospital: 2.7KM <br> Life Care Hospital: 2.7KM" ],
+      "action": "map",
+      "resources": "map link",
+      "nextpattern": "",
+      "buttons": [ "About Thorsignia","Nearby Landmarks", "Nearby Eateries", "Nearby Malls", "Nearby Gaming-zones" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "eateries",
+      "patterns": [ "--||-- eateries", "--||-- nearby eateries", "--||-- Food", "--||-- hostels", "--||-- restaurant", "--||-- hungry" ],
+      "responses": ["Fenny's Lounge & KItchen: 800M <br> The Black Pearl: 450M <br> Empire Restaurant Koramangala: 500M <br> The Curried: 950M <br> Bamey's: 1.0KM <br> Meghana Foods: 450M <br> Bathinda Junction: 140M <br> Chung Wah Restaurant: 500M <br> Thedil: 700M <br> Koramangala Social: 900M <br> The Hobbit Cafe: 600M <br> Truffles: 650M <br> Malabar Xpress: 600M <br> Sri Udupi Park: 450M <br> Madeena Hotel: 500M <br> 30 Square: 400M <br>  McDonals: 550M <br> Gramin: 900M <br> Maharaja Restaurant-A Punjabi Rasoi: 900M" ],
+      "action": "map",
+      "resources": "map link",
+      "nextpattern": "",
+      "buttons": [ "About Thorsignia", "Nearby Hospitals", "Nearby Landmarks", "Nearby Malls", "Nearby Gaming-zones" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "malls",
+      "patterns": [ "--||-- malls", "--||-- nearby malls", "--||-- shopping centres", "--||-- plaza", "--||-- market" ],
+      "responses": [ "Tibet Mall: 450M <br> Shopping Center Nandhini: 400M <br> Forum Mal: 800M <br> Raheja Arcade: 800M <br> Kristal Prestige: 160M <br> Vikas TechPark: 450M <br> Market Square Mall: 3.1KM" ],
+      "action": "map",
+      "resources": "map link",
+      "nextpattern": "",
+      "buttons": [ "About Thorsignia", "Nearby Hospitals", "Nearby Landmarks", "Nearby Eateries", "Nearby Gaming-zones" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "landmarks",
+      "patterns": [ "--||-- landmarks", "--||-- nearby landmarks", "--||-- notable places", "--||-- nearby places" ],
+      "responses":  [ "Bangalore Fort: 7.4KM <br> Kempegowda Tower: 5.2KM <br> Kempegowda Tower: 6.7KM <br> Ashoka Pillar Monument: 5.3KM <br> Ambedkar Statue: 4.8KM <br> Dr.Ambedkar And Pele Statue: 7.0KM  <br> Sir Mark Cubbon Statue: 7.9KM <br> Wall Clock BBMP: 5.7KM" ],
+      "action": "map",
+      "resources": "map link",
+      "nextpattern": "",
+      "buttons": [ "About Thorsignia", "Nearby Hospitals","Nearby Eateries", "Nearby Malls", "Nearby Gaming-zones" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "gaming-zones",
+      "patterns": [ "--||-- gaming-zones", "--||-- nearby gaming-zones", "--||-- gaming zones", "--||-- leisure activity", "--||-- game"],
+      "responses": [ "Friends Cyber World & Gaming Zones: 1.9KM <br> VR Room: 450M <br> REX Esports: 2.2KM <br> Flight 4 Fantasy: 750M <br> Talk To The Hand Laser Tag, VR Gaming And Mystery Zone: 1.8KM" ],
+      "action": "map",
+      "resources": "map link",
+      "nextpattern": "",
+      "buttons":[ "About Thorsignia", "Nearby Hospitals", "Nearby Landmarks", "Nearby Eateries", "Nearby Malls"],
+      "context": [ "" ]
+    }
+  ]
+}
